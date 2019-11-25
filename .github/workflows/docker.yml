@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      - uses: actions/checkout@v1
       - name: Hello world action step
         id: hello
         uses: ./
